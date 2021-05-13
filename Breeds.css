@@ -1,0 +1,30 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(30.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+a {
+    color: turquoise;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+  a:hover {
+    border: 1px solid gray;
+    background-color: ivory;
+  }
+  input[type=text] {
+    width: 50%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color:yellow; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
